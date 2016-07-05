@@ -1,0 +1,61 @@
+.background {
+    background-image: url();
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: white;
+      text-align: center;
+      font-size: 28px;
+      background-attachment: fixed;
+}
+h1 {
+   color: black;
+   -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: px;
+   -webkit-text-stroke-color: black;
+}
+h2 {
+   color: black;
+   -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: px;
+   -webkit-text-stroke-color: black;
+   text-align: center;
+}
+p {
+    padding:0.2em 0.2em 0.2em 0.2em;
+    display:inline-block;
+    background-color:#FFFFFF;
+    color:#000000;
+    font-size: 15px;
+    line-height: 15px;
+}
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00ffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4caf50;
+}
